@@ -86,9 +86,12 @@ export const App = () => {
             <BackgroundImage src="/background3.jpg" radius="sm">
               <Flex pt={150} pl={250} direction={"column"}>
                 <Title
-                  c="##fa5252"
                   order={1}
-                  style={{ zIndex: 1000, textTransform: "uppercase" }}
+                  style={{
+                    zIndex: 1000,
+                    textTransform: "uppercase",
+                    color: "#fa5252",
+                  }}
                 >
                   Code In Canada
                 </Title>

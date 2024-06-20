@@ -6,5 +6,7 @@ module.exports = {
   rules: {
     "react/react-in-jsx-scope": "off",
     "import/extensions": "off",
+    quotes: "off",
+    "@typescript-eslint/quotes": "off",
   },
 };

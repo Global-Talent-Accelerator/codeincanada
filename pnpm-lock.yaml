@@ -14,6 +14,9 @@ importers:
       '@mantine/hooks':
         specifier: 7.10.2
         version: 7.10.2(react@18.3.1)
+      '@tabler/icons-react':
+        specifier: ^3.6.0
+        version: 3.6.0(react@18.3.1)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -1695,6 +1698,14 @@ packages:
 
   '@storybook/types@8.1.10':
     resolution: {integrity: sha512-UJ97iqI+0Mk13I6ayd3TaBfSFBkWnEauwTnFMQe1dN/L3wTh8laOBaLa0Vr3utRSnt2b5hpcw/nq7azB/Gx4Yw==}
+
+  '@tabler/icons-react@3.6.0':
+    resolution: {integrity: sha512-mkYGxlphNzvKq32teL+Z8wZW7I9zDftmNPX38UnZVCGjss2qbg0puqLhi1unfm5Y0CSefg+iAQrsjSL+DHx9YA==}
+    peerDependencies:
+      react: '>= 16'
+
+  '@tabler/icons@3.6.0':
+    resolution: {integrity: sha512-Zv0Ofc64RCMpZ2F8CvsWAphrSjerx5hEErt/RMmE+W8r4E5l5Lizi+My9KbbZQ4NyAtrtrOX80OY1oROZrRzEA==}
 
   '@testing-library/dom@9.3.4':
     resolution: {integrity: sha512-FlS4ZWlp97iiNWig0Muq8p+3rVDjRiYE+YKGbAqXOu9nwJFFOdL00kFpz42M+4huzYi86vAK1sOOfyOG45muIQ==}
@@ -7088,6 +7099,13 @@ snapshots:
       '@storybook/channels': 8.1.10
       '@types/express': 4.17.21
       file-system-cache: 2.3.0
+
+  '@tabler/icons-react@3.6.0(react@18.3.1)':
+    dependencies:
+      '@tabler/icons': 3.6.0
+      react: 18.3.1
+
+  '@tabler/icons@3.6.0': {}
 
   '@testing-library/dom@9.3.4':
     dependencies:
